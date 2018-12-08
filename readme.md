@@ -32,7 +32,7 @@ https://imebra.com/get-it/
 
 ``` ADD libimebra.a into "Link Binary With Libraries" under Build Phases ```
 
-# ios-dicom-image-processing
+## Compile and integrate DCMTK library into swift project 
 
 DICOM image processing using Imebra
 
