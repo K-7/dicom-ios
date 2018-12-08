@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16C743CC2173271A00A9E888 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C743CB2173271A00A9E888 /* AppDelegate.swift */; };
+		16C743CE2173271A00A9E888 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C743CD2173271A00A9E888 /* ViewController.swift */; };
+		16C743D12173271A00A9E888 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16C743CF2173271A00A9E888 /* Main.storyboard */; };
+		16C743D32173271C00A9E888 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16C743D22173271C00A9E888 /* Assets.xcassets */; };
+		16C743D62173271C00A9E888 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16C743D42173271C00A9E888 /* LaunchScreen.storyboard */; };
+		16C743E12173271C00A9E888 /* TestDcmtkSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C743E02173271C00A9E888 /* TestDcmtkSwiftTests.swift */; };
+		16C743EC2173271C00A9E888 /* TestDcmtkSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C743EB2173271C00A9E888 /* TestDcmtkSwiftUITests.swift */; };
+		16C7440D2173289800A9E888 /* libcharls.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C743FA2173289800A9E888 /* libcharls.a */; };
+		16C7440E2173289800A9E888 /* libdcmimage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C743FB2173289800A9E888 /* libdcmimage.a */; };
+		16C7440F2173289800A9E888 /* libdcmqrdb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C743FC2173289800A9E888 /* libdcmqrdb.a */; };
+		16C744102173289800A9E888 /* liboflog.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C743FD2173289800A9E888 /* liboflog.a */; };
+		16C744112173289800A9E888 /* libdcmtls.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C743FE2173289800A9E888 /* libdcmtls.a */; };
+		16C744122173289800A9E888 /* libdcmsr.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C743FF2173289800A9E888 /* libdcmsr.a */; };
+		16C744132173289800A9E888 /* libijg8.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C744002173289800A9E888 /* libijg8.a */; };
+		16C744142173289800A9E888 /* libijg12.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C744012173289800A9E888 /* libijg12.a */; };
+		16C744152173289800A9E888 /* liblibi2d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C744022173289800A9E888 /* liblibi2d.a */; };
+		16C744162173289800A9E888 /* libdcmdata.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C744032173289800A9E888 /* libdcmdata.a */; };
+		16C744172173289800A9E888 /* libdcmdsig.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C744042173289800A9E888 /* libdcmdsig.a */; };
+		16C744182173289800A9E888 /* libdcmwlm.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C744052173289800A9E888 /* libdcmwlm.a */; };
+		16C744192173289800A9E888 /* libdcmpstat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C744062173289800A9E888 /* libdcmpstat.a */; };
+		16C7441A2173289800A9E888 /* libdcmimgle.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C744072173289800A9E888 /* libdcmimgle.a */; };
+		16C7441B2173289800A9E888 /* libdcmjpls.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C744082173289800A9E888 /* libdcmjpls.a */; };
+		16C7441C2173289800A9E888 /* libdcmnet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C744092173289800A9E888 /* libdcmnet.a */; };
+		16C7441D2173289800A9E888 /* libofstd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C7440A2173289800A9E888 /* libofstd.a */; };
+		16C7441E2173289800A9E888 /* libijg16.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C7440B2173289800A9E888 /* libijg16.a */; };
+		16C7441F2173289800A9E888 /* libdcmjpeg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C7440C2173289800A9E888 /* libdcmjpeg.a */; };
+		16C74421217328B100A9E888 /* Libraries in Resources */ = {isa = PBXBuildFile; fileRef = 16C74420217328B100A9E888 /* Libraries */; };
+		16C74428217329E500A9E888 /* I_000002.dcm in Resources */ = {isa = PBXBuildFile; fileRef = 16C74423217329E500A9E888 /* I_000002.dcm */; };
+		16C74429217329E500A9E888 /* dicom.dic in Resources */ = {isa = PBXBuildFile; fileRef = 16C74425217329E500A9E888 /* dicom.dic */; };
+		16C7442A217329E500A9E888 /* DicomUtil.mm in Sources */ = {isa = PBXBuildFile; fileRef = 16C74426217329E500A9E888 /* DicomUtil.mm */; };
+		16C7442B217329E500A9E888 /* I_000001.dcm in Resources */ = {isa = PBXBuildFile; fileRef = 16C74427217329E500A9E888 /* I_000001.dcm */; };
+		16C7442D217329FA00A9E888 /* private.dic in Resources */ = {isa = PBXBuildFile; fileRef = 16C7442C217329FA00A9E888 /* private.dic */; };
+		725C596B217E4C6100C68F7B /* libdcmfg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 725C5963217E4C6100C68F7B /* libdcmfg.a */; };
+		725C596C217E4C6100C68F7B /* libdcmrt.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 725C5964217E4C6100C68F7B /* libdcmrt.a */; };
+		725C596D217E4C6100C68F7B /* libdcmpmap.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 725C5965217E4C6100C68F7B /* libdcmpmap.a */; };
+		725C596E217E4C6100C68F7B /* libcmr.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 725C5966217E4C6100C68F7B /* libcmr.a */; };
+		725C596F217E4C6100C68F7B /* libdcmtract.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 725C5967217E4C6100C68F7B /* libdcmtract.a */; };
+		725C5970217E4C6100C68F7B /* libi2d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 725C5968217E4C6100C68F7B /* libi2d.a */; };
+		725C5971217E4C6100C68F7B /* libdcmseg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 725C5969217E4C6100C68F7B /* libdcmseg.a */; };
+		725C5972217E4C6100C68F7B /* libdcmiod.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 725C596A217E4C6100C68F7B /* libdcmiod.a */; };
+		725C5978217F6DED00C68F7B /* storescp.cfg in Resources */ = {isa = PBXBuildFile; fileRef = 725C5977217F6DED00C68F7B /* storescp.cfg */; };
+		728F0AE9217DEC6E00C368B2 /* DicomNetworkConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728F0AE8217DEC6E00C368B2 /* DicomNetworkConfig.swift */; };
+		F485A7B02180BDDA0001E437 /* DicomViewer in Resources */ = {isa = PBXBuildFile; fileRef = F485A7AF2180BDD90001E437 /* DicomViewer */; };
+		F485A7B22180BF650001E437 /* webViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F485A7B12180BF650001E437 /* webViewer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16C743DD2173271C00A9E888 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16C743C02173271A00A9E888 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16C743C72173271A00A9E888;
+			remoteInfo = TestDcmtkSwift;
+		};
+		16C743E82173271C00A9E888 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16C743C02173271A00A9E888 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16C743C72173271A00A9E888;
+			remoteInfo = TestDcmtkSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16C743C82173271A00A9E888 /* TestDcmtkSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestDcmtkSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16C743CB2173271A00A9E888 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		16C743CD2173271A00A9E888 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		16C743D02173271A00A9E888 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		16C743D22173271C00A9E888 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16C743D52173271C00A9E888 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		16C743D72173271C00A9E888 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16C743DC2173271C00A9E888 /* TestDcmtkSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestDcmtkSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16C743E02173271C00A9E888 /* TestDcmtkSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDcmtkSwiftTests.swift; sourceTree = "<group>"; };
+		16C743E22173271C00A9E888 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16C743E72173271C00A9E888 /* TestDcmtkSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestDcmtkSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16C743EB2173271C00A9E888 /* TestDcmtkSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDcmtkSwiftUITests.swift; sourceTree = "<group>"; };
+		16C743ED2173271C00A9E888 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16C743FA2173289800A9E888 /* libcharls.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcharls.a; path = TestDcmtkSwift/Libraries/dcmtk/libcharls.a; sourceTree = "<group>"; };
+		16C743FB2173289800A9E888 /* libdcmimage.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libdcmimage.a; path = TestDcmtkSwift/Libraries/dcmtk/libdcmimage.a; sourceTree = "<group>"; };
+		16C743FC2173289800A9E888 /* libdcmqrdb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libdcmqrdb.a; path = TestDcmtkSwift/Libraries/dcmtk/libdcmqrdb.a; sourceTree = "<group>"; };
+		16C743FD2173289800A9E888 /* liboflog.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liboflog.a; path = TestDcmtkSwift/Libraries/dcmtk/liboflog.a; sourceTree = "<group>"; };
+		16C743FE2173289800A9E888 /* libdcmtls.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libdcmtls.a; path = TestDcmtkSwift/Libraries/dcmtk/libdcmtls.a; sourceTree = "<group>"; };
+		16C743FF2173289800A9E888 /* libdcmsr.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libdcmsr.a; path = TestDcmtkSwift/Libraries/dcmtk/libdcmsr.a; sourceTree = "<group>"; };
+		16C744002173289800A9E888 /* libijg8.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libijg8.a; path = TestDcmtkSwift/Libraries/dcmtk/libijg8.a; sourceTree = "<group>"; };
+		16C744012173289800A9E888 /* libijg12.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libijg12.a; path = TestDcmtkSwift/Libraries/dcmtk/libijg12.a; sourceTree = "<group>"; };
+		16C744022173289800A9E888 /* liblibi2d.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblibi2d.a; path = TestDcmtkSwift/Libraries/dcmtk/liblibi2d.a; sourceTree = "<group>"; };
+		16C744032173289800A9E888 /* libdcmdata.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libdcmdata.a; path = TestDcmtkSwift/Libraries/dcmtk/libdcmdata.a; sourceTree = "<group>"; };
+		16C744042173289800A9E888 /* libdcmdsig.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libdcmdsig.a; path = TestDcmtkSwift/Libraries/dcmtk/libdcmdsig.a; sourceTree = "<group>"; };
+		16C744052173289800A9E888 /* libdcmwlm.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libdcmwlm.a; path = TestDcmtkSwift/Libraries/dcmtk/libdcmwlm.a; sourceTree = "<group>"; };
+		16C744062173289800A9E888 /* libdcmpstat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libdcmpstat.a; path = TestDcmtkSwift/Libraries/dcmtk/libdcmpstat.a; sourceTree = "<group>"; };
+		16C744072173289800A9E888 /* libdcmimgle.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libdcmimgle.a; path = TestDcmtkSwift/Libraries/dcmtk/libdcmimgle.a; sourceTree = "<group>"; };
+		16C744082173289800A9E888 /* libdcmjpls.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libdcmjpls.a; path = TestDcmtkSwift/Libraries/dcmtk/libdcmjpls.a; sourceTree = "<group>"; };
+		16C744092173289800A9E888 /* libdcmnet.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libdcmnet.a; path = TestDcmtkSwift/Libraries/dcmtk/libdcmnet.a; sourceTree = "<group>"; };
+		16C7440A2173289800A9E888 /* libofstd.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libofstd.a; path = TestDcmtkSwift/Libraries/dcmtk/libofstd.a; sourceTree = "<group>"; };
+		16C7440B2173289800A9E888 /* libijg16.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libijg16.a; path = TestDcmtkSwift/Libraries/dcmtk/libijg16.a; sourceTree = "<group>"; };
+		16C7440C2173289800A9E888 /* libdcmjpeg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libdcmjpeg.a; path = TestDcmtkSwift/Libraries/dcmtk/libdcmjpeg.a; sourceTree = "<group>"; };
+		16C74420217328B100A9E888 /* Libraries */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Libraries; sourceTree = "<group>"; };
+		16C74422217329E400A9E888 /* TestDcmtkSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestDcmtkSwift-Bridging-Header.h"; sourceTree = "<group>"; };
+		16C74423217329E500A9E888 /* I_000002.dcm */ = {isa = PBXFileReference; lastKnownFileType = file; path = I_000002.dcm; sourceTree = "<group>"; };
+		16C74424217329E500A9E888 /* DicomUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DicomUtil.h; sourceTree = "<group>"; };
+		16C74425217329E500A9E888 /* dicom.dic */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dicom.dic; sourceTree = "<group>"; };
+		16C74426217329E500A9E888 /* DicomUtil.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DicomUtil.mm; sourceTree = "<group>"; };
+		16C74427217329E500A9E888 /* I_000001.dcm */ = {isa = PBXFileReference; lastKnownFileType = file; path = I_000001.dcm; sourceTree = "<group>"; };
+		16C7442C217329FA00A9E888 /* private.dic */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = private.dic; sourceTree = "<group>"; };
+		725C5963217E4C6100C68F7B /* libdcmfg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libdcmfg.a; path = TestDcmtkSwift/Libraries/dcmtk/libdcmfg.a; sourceTree = "<group>"; };
+		725C5964217E4C6100C68F7B /* libdcmrt.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libdcmrt.a; path = TestDcmtkSwift/Libraries/dcmtk/libdcmrt.a; sourceTree = "<group>"; };
+		725C5965217E4C6100C68F7B /* libdcmpmap.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libdcmpmap.a; path = TestDcmtkSwift/Libraries/dcmtk/libdcmpmap.a; sourceTree = "<group>"; };
+		725C5966217E4C6100C68F7B /* libcmr.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcmr.a; path = TestDcmtkSwift/Libraries/dcmtk/libcmr.a; sourceTree = "<group>"; };
+		725C5967217E4C6100C68F7B /* libdcmtract.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libdcmtract.a; path = TestDcmtkSwift/Libraries/dcmtk/libdcmtract.a; sourceTree = "<group>"; };
+		725C5968217E4C6100C68F7B /* libi2d.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libi2d.a; path = TestDcmtkSwift/Libraries/dcmtk/libi2d.a; sourceTree = "<group>"; };
+		725C5969217E4C6100C68F7B /* libdcmseg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libdcmseg.a; path = TestDcmtkSwift/Libraries/dcmtk/libdcmseg.a; sourceTree = "<group>"; };
+		725C596A217E4C6100C68F7B /* libdcmiod.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libdcmiod.a; path = TestDcmtkSwift/Libraries/dcmtk/libdcmiod.a; sourceTree = "<group>"; };
+		725C5977217F6DED00C68F7B /* storescp.cfg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = storescp.cfg; sourceTree = "<group>"; };
+		728F0AE8217DEC6E00C368B2 /* DicomNetworkConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DicomNetworkConfig.swift; sourceTree = "<group>"; };
+		F485A7AF2180BDD90001E437 /* DicomViewer */ = {isa = PBXFileReference; lastKnownFileType = folder; path = DicomViewer; sourceTree = "<group>"; };
+		F485A7B12180BF650001E437 /* webViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webViewer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16C743C52173271A00A9E888 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				725C596B217E4C6100C68F7B /* libdcmfg.a in Frameworks */,
+				725C596C217E4C6100C68F7B /* libdcmrt.a in Frameworks */,
+				725C596D217E4C6100C68F7B /* libdcmpmap.a in Frameworks */,
+				725C596E217E4C6100C68F7B /* libcmr.a in Frameworks */,
+				725C596F217E4C6100C68F7B /* libdcmtract.a in Frameworks */,
+				725C5970217E4C6100C68F7B /* libi2d.a in Frameworks */,
+				725C5971217E4C6100C68F7B /* libdcmseg.a in Frameworks */,
+				725C5972217E4C6100C68F7B /* libdcmiod.a in Frameworks */,
+				16C7440D2173289800A9E888 /* libcharls.a in Frameworks */,
+				16C744162173289800A9E888 /* libdcmdata.a in Frameworks */,
+				16C744172173289800A9E888 /* libdcmdsig.a in Frameworks */,
+				16C7440E2173289800A9E888 /* libdcmimage.a in Frameworks */,
+				16C7441A2173289800A9E888 /* libdcmimgle.a in Frameworks */,
+				16C7441F2173289800A9E888 /* libdcmjpeg.a in Frameworks */,
+				16C7441B2173289800A9E888 /* libdcmjpls.a in Frameworks */,
+				16C7441C2173289800A9E888 /* libdcmnet.a in Frameworks */,
+				16C744192173289800A9E888 /* libdcmpstat.a in Frameworks */,
+				16C7440F2173289800A9E888 /* libdcmqrdb.a in Frameworks */,
+				16C744122173289800A9E888 /* libdcmsr.a in Frameworks */,
+				16C744112173289800A9E888 /* libdcmtls.a in Frameworks */,
+				16C744182173289800A9E888 /* libdcmwlm.a in Frameworks */,
+				16C744132173289800A9E888 /* libijg8.a in Frameworks */,
+				16C744142173289800A9E888 /* libijg12.a in Frameworks */,
+				16C7441E2173289800A9E888 /* libijg16.a in Frameworks */,
+				16C744152173289800A9E888 /* liblibi2d.a in Frameworks */,
+				16C744102173289800A9E888 /* liboflog.a in Frameworks */,
+				16C7441D2173289800A9E888 /* libofstd.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16C743D92173271C00A9E888 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16C743E42173271C00A9E888 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16C743BF2173271A00A9E888 = {
+			isa = PBXGroup;
+			children = (
+				F485A7AF2180BDD90001E437 /* DicomViewer */,
+				16C743CA2173271A00A9E888 /* TestDcmtkSwift */,
+				16C743DF2173271C00A9E888 /* TestDcmtkSwiftTests */,
+				16C743EA2173271C00A9E888 /* TestDcmtkSwiftUITests */,
+				16C743C92173271A00A9E888 /* Products */,
+				16C743F92173289800A9E888 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		16C743C92173271A00A9E888 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16C743C82173271A00A9E888 /* TestDcmtkSwift.app */,
+				16C743DC2173271C00A9E888 /* TestDcmtkSwiftTests.xctest */,
+				16C743E72173271C00A9E888 /* TestDcmtkSwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16C743CA2173271A00A9E888 /* TestDcmtkSwift */ = {
+			isa = PBXGroup;
+			children = (
+				725C5977217F6DED00C68F7B /* storescp.cfg */,
+				16C7442C217329FA00A9E888 /* private.dic */,
+				16C74425217329E500A9E888 /* dicom.dic */,
+				16C74424217329E500A9E888 /* DicomUtil.h */,
+				16C74426217329E500A9E888 /* DicomUtil.mm */,
+				16C74427217329E500A9E888 /* I_000001.dcm */,
+				16C74423217329E500A9E888 /* I_000002.dcm */,
+				16C74420217328B100A9E888 /* Libraries */,
+				16C743CB2173271A00A9E888 /* AppDelegate.swift */,
+				16C743CD2173271A00A9E888 /* ViewController.swift */,
+				16C743CF2173271A00A9E888 /* Main.storyboard */,
+				16C743D22173271C00A9E888 /* Assets.xcassets */,
+				16C743D42173271C00A9E888 /* LaunchScreen.storyboard */,
+				16C743D72173271C00A9E888 /* Info.plist */,
+				16C74422217329E400A9E888 /* TestDcmtkSwift-Bridging-Header.h */,
+				728F0AE8217DEC6E00C368B2 /* DicomNetworkConfig.swift */,
+				F485A7B12180BF650001E437 /* webViewer.swift */,
+			);
+			path = TestDcmtkSwift;
+			sourceTree = "<group>";
+		};
+		16C743DF2173271C00A9E888 /* TestDcmtkSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				16C743E02173271C00A9E888 /* TestDcmtkSwiftTests.swift */,
+				16C743E22173271C00A9E888 /* Info.plist */,
+			);
+			path = TestDcmtkSwiftTests;
+			sourceTree = "<group>";
+		};
+		16C743EA2173271C00A9E888 /* TestDcmtkSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				16C743EB2173271C00A9E888 /* TestDcmtkSwiftUITests.swift */,
+				16C743ED2173271C00A9E888 /* Info.plist */,
+			);
+			path = TestDcmtkSwiftUITests;
+			sourceTree = "<group>";
+		};
+		16C743F92173289800A9E888 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				725C5966217E4C6100C68F7B /* libcmr.a */,
+				725C5963217E4C6100C68F7B /* libdcmfg.a */,
+				725C596A217E4C6100C68F7B /* libdcmiod.a */,
+				725C5965217E4C6100C68F7B /* libdcmpmap.a */,
+				725C5964217E4C6100C68F7B /* libdcmrt.a */,
+				725C5969217E4C6100C68F7B /* libdcmseg.a */,
+				725C5967217E4C6100C68F7B /* libdcmtract.a */,
+				725C5968217E4C6100C68F7B /* libi2d.a */,
+				16C743FA2173289800A9E888 /* libcharls.a */,
+				16C744032173289800A9E888 /* libdcmdata.a */,
+				16C744042173289800A9E888 /* libdcmdsig.a */,
+				16C743FB2173289800A9E888 /* libdcmimage.a */,
+				16C744072173289800A9E888 /* libdcmimgle.a */,
+				16C7440C2173289800A9E888 /* libdcmjpeg.a */,
+				16C744082173289800A9E888 /* libdcmjpls.a */,
+				16C744092173289800A9E888 /* libdcmnet.a */,
+				16C744062173289800A9E888 /* libdcmpstat.a */,
+				16C743FC2173289800A9E888 /* libdcmqrdb.a */,
+				16C743FF2173289800A9E888 /* libdcmsr.a */,
+				16C743FE2173289800A9E888 /* libdcmtls.a */,
+				16C744052173289800A9E888 /* libdcmwlm.a */,
+				16C744002173289800A9E888 /* libijg8.a */,
+				16C744012173289800A9E888 /* libijg12.a */,
+				16C7440B2173289800A9E888 /* libijg16.a */,
+				16C744022173289800A9E888 /* liblibi2d.a */,
+				16C743FD2173289800A9E888 /* liboflog.a */,
+				16C7440A2173289800A9E888 /* libofstd.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16C743C72173271A00A9E888 /* TestDcmtkSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16C743F02173271C00A9E888 /* Build configuration list for PBXNativeTarget "TestDcmtkSwift" */;
+			buildPhases = (
+				16C743C42173271A00A9E888 /* Sources */,
+				16C743C52173271A00A9E888 /* Frameworks */,
+				16C743C62173271A00A9E888 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestDcmtkSwift;
+			productName = TestDcmtkSwift;
+			productReference = 16C743C82173271A00A9E888 /* TestDcmtkSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		16C743DB2173271C00A9E888 /* TestDcmtkSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16C743F32173271C00A9E888 /* Build configuration list for PBXNativeTarget "TestDcmtkSwiftTests" */;
+			buildPhases = (
+				16C743D82173271C00A9E888 /* Sources */,
+				16C743D92173271C00A9E888 /* Frameworks */,
+				16C743DA2173271C00A9E888 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16C743DE2173271C00A9E888 /* PBXTargetDependency */,
+			);
+			name = TestDcmtkSwiftTests;
+			productName = TestDcmtkSwiftTests;
+			productReference = 16C743DC2173271C00A9E888 /* TestDcmtkSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		16C743E62173271C00A9E888 /* TestDcmtkSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16C743F62173271C00A9E888 /* Build configuration list for PBXNativeTarget "TestDcmtkSwiftUITests" */;
+			buildPhases = (
+				16C743E32173271C00A9E888 /* Sources */,
+				16C743E42173271C00A9E888 /* Frameworks */,
+				16C743E52173271C00A9E888 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16C743E92173271C00A9E888 /* PBXTargetDependency */,
+			);
+			name = TestDcmtkSwiftUITests;
+			productName = TestDcmtkSwiftUITests;
+			productReference = 16C743E72173271C00A9E888 /* TestDcmtkSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16C743C02173271A00A9E888 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "G Srinivasa";
+				TargetAttributes = {
+					16C743C72173271A00A9E888 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
+					};
+					16C743DB2173271C00A9E888 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 16C743C72173271A00A9E888;
+					};
+					16C743E62173271C00A9E888 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 16C743C72173271A00A9E888;
+					};
+				};
+			};
+			buildConfigurationList = 16C743C32173271A00A9E888 /* Build configuration list for PBXProject "TestDcmtkSwift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16C743BF2173271A00A9E888;
+			productRefGroup = 16C743C92173271A00A9E888 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16C743C72173271A00A9E888 /* TestDcmtkSwift */,
+				16C743DB2173271C00A9E888 /* TestDcmtkSwiftTests */,
+				16C743E62173271C00A9E888 /* TestDcmtkSwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16C743C62173271A00A9E888 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				725C5978217F6DED00C68F7B /* storescp.cfg in Resources */,
+				F485A7B02180BDDA0001E437 /* DicomViewer in Resources */,
+				16C743D62173271C00A9E888 /* LaunchScreen.storyboard in Resources */,
+				16C74429217329E500A9E888 /* dicom.dic in Resources */,
+				16C7442B217329E500A9E888 /* I_000001.dcm in Resources */,
+				16C743D32173271C00A9E888 /* Assets.xcassets in Resources */,
+				16C7442D217329FA00A9E888 /* private.dic in Resources */,
+				16C74428217329E500A9E888 /* I_000002.dcm in Resources */,
+				16C74421217328B100A9E888 /* Libraries in Resources */,
+				16C743D12173271A00A9E888 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16C743DA2173271C00A9E888 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16C743E52173271C00A9E888 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16C743C42173271A00A9E888 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16C743CE2173271A00A9E888 /* ViewController.swift in Sources */,
+				728F0AE9217DEC6E00C368B2 /* DicomNetworkConfig.swift in Sources */,
+				16C7442A217329E500A9E888 /* DicomUtil.mm in Sources */,
+				F485A7B22180BF650001E437 /* webViewer.swift in Sources */,
+				16C743CC2173271A00A9E888 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16C743D82173271C00A9E888 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16C743E12173271C00A9E888 /* TestDcmtkSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16C743E32173271C00A9E888 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16C743EC2173271C00A9E888 /* TestDcmtkSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16C743DE2173271C00A9E888 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16C743C72173271A00A9E888 /* TestDcmtkSwift */;
+			targetProxy = 16C743DD2173271C00A9E888 /* PBXContainerItemProxy */;
+		};
+		16C743E92173271C00A9E888 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16C743C72173271A00A9E888 /* TestDcmtkSwift */;
+			targetProxy = 16C743E82173271C00A9E888 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		16C743CF2173271A00A9E888 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16C743D02173271A00A9E888 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		16C743D42173271C00A9E888 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16C743D52173271C00A9E888 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		16C743EE2173271C00A9E888 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		16C743EF2173271C00A9E888 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16C743F12173271C00A9E888 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BYSX3NB6Q2;
+				INFOPLIST_FILE = TestDcmtkSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TestDcmtkSwift/Libraries/dcmtk/**",
+					"$(PROJECT_DIR)/TestDcmtkSwift/Libraries/dcmtk",
+				);
+				OTHER_LDFLAGS = "-lz";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.My-First.TestDcmtkSwift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TestDcmtkSwift/TestDcmtkSwift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/TestDcmtkSwift/Libraries/dcmtk/**";
+			};
+			name = Debug;
+		};
+		16C743F22173271C00A9E888 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BYSX3NB6Q2;
+				INFOPLIST_FILE = TestDcmtkSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TestDcmtkSwift/Libraries/dcmtk/**",
+					"$(PROJECT_DIR)/TestDcmtkSwift/Libraries/dcmtk",
+				);
+				OTHER_LDFLAGS = "-lz";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.My-First.TestDcmtkSwift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TestDcmtkSwift/TestDcmtkSwift-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/TestDcmtkSwift/Libraries/dcmtk/**";
+			};
+			name = Release;
+		};
+		16C743F42173271C00A9E888 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BYSX3NB6Q2;
+				INFOPLIST_FILE = TestDcmtkSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.My-First.TestDcmtkSwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestDcmtkSwift.app/TestDcmtkSwift";
+			};
+			name = Debug;
+		};
+		16C743F52173271C00A9E888 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BYSX3NB6Q2;
+				INFOPLIST_FILE = TestDcmtkSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.My-First.TestDcmtkSwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestDcmtkSwift.app/TestDcmtkSwift";
+			};
+			name = Release;
+		};
+		16C743F72173271C00A9E888 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BYSX3NB6Q2;
+				INFOPLIST_FILE = TestDcmtkSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.My-First.TestDcmtkSwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TestDcmtkSwift;
+			};
+			name = Debug;
+		};
+		16C743F82173271C00A9E888 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BYSX3NB6Q2;
+				INFOPLIST_FILE = TestDcmtkSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.My-First.TestDcmtkSwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TestDcmtkSwift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16C743C32173271A00A9E888 /* Build configuration list for PBXProject "TestDcmtkSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16C743EE2173271C00A9E888 /* Debug */,
+				16C743EF2173271C00A9E888 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16C743F02173271C00A9E888 /* Build configuration list for PBXNativeTarget "TestDcmtkSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16C743F12173271C00A9E888 /* Debug */,
+				16C743F22173271C00A9E888 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16C743F32173271C00A9E888 /* Build configuration list for PBXNativeTarget "TestDcmtkSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16C743F42173271C00A9E888 /* Debug */,
+				16C743F52173271C00A9E888 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16C743F62173271C00A9E888 /* Build configuration list for PBXNativeTarget "TestDcmtkSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16C743F72173271C00A9E888 /* Debug */,
+				16C743F82173271C00A9E888 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16C743C02173271A00A9E888 /* Project object */;
+}
